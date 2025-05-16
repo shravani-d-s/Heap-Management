@@ -127,7 +127,7 @@ void display_memory()
 
 int main()
 {
-
+    //test cases
     int *ptr1 = (int *)allocate_block(200 * sizeof(int));
     display_memory();
     char *ptr2 = (char *)allocate_block(150 * sizeof(char));
